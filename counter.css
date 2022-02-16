@@ -1,0 +1,142 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: #d6e2e4;
+    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.main_ctn{
+    max-width: 80%;
+    background: #0c1f22;
+    border: solid #d6e2e4 ;
+    padding: 1rem;
+    text-align: center;
+    color: aliceblue;
+    margin: 2rem auto ;
+    border-radius: .4rem;
+}
+
+body ._title  {
+  width: auto;
+  padding: 1rem;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: .7rem;
+  font-size: 2rem;
+}
+
+.main_ctn ._result{
+   margin: auto;
+   font-size: 3.5rem;
+   padding: 1rem;
+}
+
+._sub_ctn{
+    max-width: 100%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.99rem;
+}
+
+._sub_ctn input[type="submit"]{
+    font-size: 1.2rem;
+    font-weight: 100 ;
+    width: 10rem ;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: .2rem;
+    background: transparent;
+    color: #19df44;
+    text-transform: capitalize;
+}
+
+
+._sub_ctn input[type="submit"]:nth-child(1){
+    border: solid  rgb(20, 123, 220) 1px;
+    background: transparent;
+    color: rgb(20, 123, 220);
+}
+._sub_ctn input[type="submit"]:nth-child(1):hover{
+   background:rgb(20, 123, 220); color:whitesmoke;
+   transition: all .5s ease-in-out;
+ }
+
+
+._sub_ctn input[type="submit"]:nth-child(2){
+    border: solid  #19df44 1px;
+    background: transparent;
+    color: #19df44;
+ }
+ ._sub_ctn input[type="submit"]:nth-child(2):hover{
+    background: #19df44; color: #0c1f22;
+    transition: all .5s ease-in-out;
+ }
+  
+
+._sub_ctn input[type="submit"]:nth-child(3){
+    border: solid  crimson 1px;
+    background: transparent;
+    color: crimson;
+ }
+ ._sub_ctn input[type="submit"]:nth-child(3):hover{
+    background: crimson; color:whitesmoke;
+    transition: all .5s ease-in-out;
+ }
+
+ .main_ctn ._comment{
+    transition: all .5s ease-in-out;
+    font-size: 1.5rem;
+    margin: 2rem;
+ }
+
+ body ._autor{
+    padding: 1rem;
+    margin: 6rem auto 0 auto;
+    font-size: 1.1rem;
+    font-weight: 100 ;
+}
+
+.main_ctn .counter{
+    display: flex;
+    gap: .3rem;
+    justify-content: end;
+}
+
+.main_ctn .add_counter{
+    border-radius: .2rem;
+    font-size: 1rem;
+    font-weight: 100;
+    max-width: 10%;
+    text-align: center;
+    margin: 0;
+    padding: .5rem;
+    cursor: pointer;
+    background: #1d49db;
+}
+
+.main_ctn .dell_counter{
+    border-radius: .2rem;
+    font-size: 1rem;
+    font-weight: 100;
+    max-width: 10%;
+    text-align: center;
+    margin: 0;
+    padding: .5rem;
+    cursor: pointer;
+    background: crimson;
+}
+
+/* Styles throught envents */
+.transition{
+    transition: all .5s ease-in-out;
+}
+
+ 
